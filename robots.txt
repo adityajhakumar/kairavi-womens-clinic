@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://adityajhakumar.github.io/kairavi-womens-clinic
+Sitemap: https://adityajhakumar.github.io/kairavi-womens-clinic/sitemap.xml
