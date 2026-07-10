@@ -73,6 +73,20 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
             </div>
           ))}
 
+          {/* References */}
+          {post.sources && post.sources.length > 0 && (
+            <div style={{ marginTop: 40 }}>
+              <h3 style={{ fontSize: 16 }}>References</h3>
+              <ul style={{ listStyle: "none", padding: 0, marginTop: 10 }}>
+                {post.sources.map((s) => (
+                  <li key={s.url} style={{ fontSize: 13.5, padding: "4px 0" }}>
+                    <a href={s.url} target="_blank" rel="noopener noreferrer nofollow" className="muted" style={{ textDecoration: "underline" }}>{s.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           {/* CTA */}
           <div style={{ marginTop: 40, background: "var(--bg-tint)", borderRadius: 18, padding: "32px 26px", textAlign: "center" }}>
             <h2 style={{ fontSize: 23 }}>Talk to Dr. Santhalakshmi</h2>
