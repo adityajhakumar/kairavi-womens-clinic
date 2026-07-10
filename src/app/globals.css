@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================================
+   Kairavi Women's Clinic, light theme.
+   White background, deep-rose accent. Warm, calm, trustworthy, the light-mode
+   counterpart to the MemX dark theme: same structure, recolored.
+   ========================================================================== */
+
+:root {
+  --bg: #ffffff;
+  --bg-tint: #fdf2f7;       /* very soft pink section background */
+  --bg-tint-2: #fbe9f1;
+  --ink: #2a2630;           /* primary text */
+  --ink-soft: #5b525f;      /* secondary text */
+  --ink-faint: #8b8392;
+  --rose: #c2306c;          /* primary accent */
+  --rose-deep: #a21d58;     /* hover / emphasis */
+  --rose-soft: #f7d7e6;     /* borders, chips */
+  --line: #efe3ea;          /* hairline dividers */
+  --card: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-inter), Inter, system-ui, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--rose-soft); color: var(--rose-deep); }
+
+a { color: inherit; text-decoration: none; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-newsreader), Newsreader, Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  line-height: 1.12;
+}
+
+/* Reusable layout + component utilities ----------------------------------- */
+.container-k { max-width: 1120px; margin: 0 auto; padding-left: 22px; padding-right: 22px; }
+.container-narrow { max-width: 760px; margin: 0 auto; padding-left: 22px; padding-right: 22px; }
+
+.eyebrow {
+  font-size: 12px; font-weight: 700; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--rose);
+}
+
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 13px 26px; border-radius: 999px;
+  background: var(--rose); color: #fff; font-weight: 600; font-size: 15px;
+  border: 1px solid var(--rose);
+  transition: background .18s ease, transform .18s ease, box-shadow .18s ease;
+  box-shadow: 0 6px 20px rgba(194,48,108,0.18);
+}
+.btn-primary:hover { background: var(--rose-deep); transform: translateY(-1px); box-shadow: 0 10px 26px rgba(194,48,108,0.26); }
+
+.btn-ghost {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 12px 24px; border-radius: 999px;
+  background: #fff; color: var(--rose-deep); font-weight: 600; font-size: 15px;
+  border: 1px solid var(--rose-soft);
+  transition: border-color .18s ease, background .18s ease;
+}
+.btn-ghost:hover { background: var(--bg-tint); border-color: var(--rose); }
+
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 14px; border-radius: 999px;
+  font-size: 12.5px; font-weight: 600;
+  background: var(--bg-tint); color: var(--rose-deep);
+  border: 1px solid var(--rose-soft);
+}
+
+.card {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 18px; padding: 26px;
+  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.card:hover { border-color: var(--rose-soft); box-shadow: 0 12px 34px rgba(42,38,48,0.07); transform: translateY(-2px); }
+
+.section { padding: 88px 0; }
+.section-tint { background: var(--bg-tint); }
+
+.lead { font-size: clamp(16px, 2vw, 19px); color: var(--ink-soft); line-height: 1.75; }
+.muted { color: var(--ink-soft); }
+
+.divider { height: 1px; background: var(--line); border: 0; }
+
+/* FAQ accordion (details/summary) */
+.faq-item { border: 1px solid var(--line); border-radius: 14px; background: #fff; overflow: hidden; }
+.faq-item + .faq-item { margin-top: 12px; }
+.faq-item summary {
+  list-style: none; cursor: pointer; padding: 20px 22px;
+  font-weight: 600; color: var(--ink); display: flex; justify-content: space-between; gap: 16px;
+  font-size: 16px;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary .plus { color: var(--rose); font-size: 22px; line-height: 1; transition: transform .2s ease; flex-shrink: 0; }
+.faq-item[open] summary .plus { transform: rotate(45deg); }
+.faq-item .faq-answer { padding: 0 22px 22px; color: var(--ink-soft); line-height: 1.7; }
+
+@media (max-width: 640px) { .section { padding: 60px 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
