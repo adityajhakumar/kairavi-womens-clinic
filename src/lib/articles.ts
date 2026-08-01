@@ -699,7 +699,7 @@ export const ARTICLES: Article[] = [
       {
         "heading": "Overview",
         "paragraphs": [
-          "A typical menstrual cycle comes roughly every 21 to 35 days, with bleeding that lasts up to about 7 days. Cycles can vary from person to person, and some change is normal.",
+          "A typical menstrual cycle comes roughly every 24 to 38 days, with bleeding that lasts up to about 7 days. Cycles can vary from person to person, and some change is normal.",
           "A menstrual disorder means your periods are causing trouble in one of several ways: bleeding that is very heavy, periods that come too often or too rarely, periods that are very painful, or periods that stop or do not start. Each pattern can have different causes and different care."
         ]
       },

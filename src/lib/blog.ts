@@ -507,7 +507,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         "heading": "What's a Normal Length and Flow?",
         "paragraphs": [
-          "According to the American College of Obstetricians and Gynecologists (ACOG) and the NHS, a menstrual cycle lasting anywhere from 21 to 35 days, counted start to start, is considered normal — the average is close to 28 days, but very few people are exactly average every month. A period itself usually lasts between 2 and 7 days.",
+          "International guidance from FIGO (the International Federation of Gynecology and Obstetrics) treats a menstrual cycle lasting anywhere from 24 to 38 days, counted start to start, as normal — the average is close to 28 days, but very few people are exactly average every month. A period itself usually lasts between 2 and 7 days.",
           "Total blood loss over a period is typically only about 2–3 tablespoons (roughly 30–40 ml), with the heaviest flow in the first day or two, often becoming lighter, pinkish or brownish towards the end. It can look like more than it is. Some month-to-month variation in cycle length and flow is completely normal, especially in the teenage years and in the years leading up to menopause, when cycles can take time to settle into a regular pattern."
         ]
       },
@@ -539,7 +539,7 @@ export const BLOG_POSTS: BlogPost[] = [
           "Consider booking a consultation if:"
         ],
         "bullets": [
-          "Your period regularly lasts longer than 7 days, or your cycle is consistently shorter than 21 days or longer than 35 days.",
+          "Your period regularly lasts longer than 7 days, or your cycle is consistently shorter than 24 days or longer than 38 days.",
           "You go 90 days or more without a period and you are not pregnant, or your periods have stopped completely without an obvious explanation.",
           "You notice bleeding or spotting between periods, or bleeding after intercourse.",
           "You have severe period pain that disrupts daily life.",
@@ -1706,7 +1706,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         "heading": "What counts as 'irregular'?",
         "paragraphs": [
-          "A typical menstrual cycle lasts anywhere from 21 to 35 days, and some month-to-month variation is normal. Periods are generally considered irregular when the gap between cycles is shorter than 21 days or longer than 35 days, when the length keeps changing, when periods stop for three months or more (outside pregnancy), when bleeding lasts longer than seven days, or when flow becomes much heavier or lighter than usual.",
+          "A typical menstrual cycle lasts anywhere from 24 to 38 days, and some month-to-month variation is normal. Periods are generally considered irregular when the gap between cycles is shorter than 24 days or longer than 38 days, when the length keeps changing, when periods stop for three months or more (outside pregnancy), when bleeding lasts longer than seven days, or when flow becomes much heavier or lighter than usual.",
           "Tracking your cycles on a calendar or app for a couple of months beforehand makes it much easier for your doctor to understand your pattern."
         ]
       },
