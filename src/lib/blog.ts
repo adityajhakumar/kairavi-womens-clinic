@@ -575,6 +575,10 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         "title": "Abnormal Uterine Bleeding - ACOG",
         "url": "https://www.acog.org/womens-health/faqs/abnormal-uterine-bleeding"
+      },
+      {
+        "title": "Abnormal Uterine Bleeding (FIGO normal menstrual parameters) - StatPearls, NCBI Bookshelf",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK532913/"
       }
     ]
   },
@@ -1782,6 +1786,10 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         "title": "Perimenopause - Cleveland Clinic",
         "url": "https://my.clevelandclinic.org/health/diseases/21608-perimenopause"
+      },
+      {
+        "title": "Abnormal Uterine Bleeding (FIGO normal menstrual parameters) - StatPearls, NCBI Bookshelf",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK532913/"
       }
     ]
   },

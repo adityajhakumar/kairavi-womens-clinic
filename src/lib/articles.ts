@@ -772,6 +772,10 @@ export const ARTICLES: Article[] = [
       {
         "title": "Mayo Clinic: Heavy menstrual bleeding",
         "url": "https://www.mayoclinic.org/diseases-conditions/menorrhagia/symptoms-causes/syc-20352829"
+      },
+      {
+        "title": "Abnormal Uterine Bleeding (FIGO normal menstrual parameters) - StatPearls, NCBI Bookshelf",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK532913/"
       }
     ],
     "image": {
