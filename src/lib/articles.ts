@@ -468,10 +468,6 @@ export const ARTICLES: Article[] = [
         "answer": "As early as possible, ideally in the first trimester. An early visit confirms your pregnancy, checks your health, and lets your doctor plan your care and any needed tests from the start."
       },
       {
-        "question": "How many scans will I have during pregnancy?",
-        "answer": "Most women are offered an early dating scan and a mid-pregnancy scan around 18 to 21 weeks. Some pregnancies may need extra scans to check the baby's growth. Your doctor will advise what is right for you."
-      },
-      {
         "question": "How long does recovery after birth take?",
         "answer": "Recovery usually takes around six to eight weeks, though everyone is different. Some bleeding and tiredness are normal at first. Your postnatal check helps make sure you are healing well."
       },
