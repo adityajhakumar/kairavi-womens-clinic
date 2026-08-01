@@ -22,6 +22,9 @@ export const CLINIC = {
     hospital: "Chettinad Super Speciality Hospital, Kelambakkam",
     bio: "Dr. Santhalakshmi S is an Obstetrician, Gynaecologist, and Laparoscopic Surgeon dedicated to caring for women through every stage of life. She completed her MBBS at Coimbatore Medical College, her DGO at Thanjavur Medical College, and her DNB in Obstetrics and Gynaecology at G. Kuppuswamy Naidu Memorial Hospital.\n\nShe has also earned a Surgical Fellowship in Gynaecologic Endoscopy, training in gynaecological laparoscopy with Patel's Minimal Access Gynecology Team at Aurangabad. This advanced training strengthens her expertise in minimally invasive (keyhole) gynaecological surgery.\n\nShe currently serves as Consultant in the Department of Obstetrics and Gynaecology at Chettinad Super Speciality Hospital, Kelambakkam. Her training spans the full breadth of women's health, from pregnancy and delivery to gynaecological and hormonal conditions.\n\nAt Kairavi Women's Clinic, Dr. Santhalakshmi brings a warm, patient-centered approach, taking time to listen and explain things in plain language. She believes that good care is built on trust, comfort, and clear communication, so every woman feels supported in her decisions.",
     photo: { src: "/images/dr-santhalakshmi.png", alt: "Dr. Santhalakshmi S, Obstetrician and Gynaecologist at Kairavi Women's Clinic" },
+    // Used ONLY for the Physician JSON-LD sameAs (search-engine identity
+    // matching). These are not shown to visitors: no page should send a
+    // patient off to a hospital or directory profile instead of Kairavi.
     profiles: [
       { label: "Chettinad Hospital profile", href: "https://www.chettinadhospital.com/doctor/Dr.S.SanthalakshmiConsultant-Obstetrics&Gynecology" },
       { label: "Practo profile", href: "https://www.practo.com/chennai/doctor/dr-santhalakshmi-gynecologist-obstetrician" },

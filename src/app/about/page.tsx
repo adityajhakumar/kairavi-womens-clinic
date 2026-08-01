@@ -131,16 +131,21 @@ export default function AboutPage() {
             ))}
           </ul>
 
-          <h2 style={{ fontSize: 26, marginTop: 48 }}>Find Dr. Santhalakshmi online</h2>
+          <h2 style={{ fontSize: 26, marginTop: 48 }}>See Dr. Santhalakshmi at Kairavi</h2>
           <p className="muted" style={{ fontSize: 14.5, marginTop: 10 }}>
-            Her verified professional profiles, including online appointment booking:
+            She consults at Kairavi Women&rsquo;s Clinic, Kelambakkam, {CLINIC.hours.days},{" "}
+            {CLINIC.hours.openDisplay} to {CLINIC.hours.closeDisplay}. To reach the clinic directly:
           </p>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginTop: 16 }}>
-            {CLINIC.doctor.profiles.map((p) => (
-              <a key={p.href} href={p.href} target="_blank" rel="noopener noreferrer" className="chip" style={{ textDecoration: "none" }}>
-                {p.label} ↗
-              </a>
-            ))}
+            <a href={`https://wa.me/${CLINIC.whatsapp}`} target="_blank" rel="noopener noreferrer" className="chip" style={{ textDecoration: "none" }}>
+              WhatsApp the clinic ↗
+            </a>
+            <a href={CLINIC.googleMapsSearch} target="_blank" rel="noopener noreferrer" className="chip" style={{ textDecoration: "none" }}>
+              Get directions ↗
+            </a>
+            <a href={CLINIC.instagramUrl} target="_blank" rel="noopener noreferrer" className="chip" style={{ textDecoration: "none" }}>
+              @{CLINIC.instagram} on Instagram ↗
+            </a>
           </div>
 
           <div style={{ marginTop: 40, display: "flex", flexWrap: "wrap", gap: 14 }}>
