@@ -44,12 +44,12 @@ export const ARTICLES: Article[] = [
       {
         "heading": "How we care for you",
         "paragraphs": [
-          "Folic acid is one of the most important steps. Taking 400 to 800 micrograms of folic acid every day, starting at least one month before you try to conceive and continuing through the first 12 weeks, can lower the chance of certain birth defects of the brain and spine. Some women, for example those with diabetes, a history of a previous baby with such a defect, or those on certain anti-seizure medicines, may be advised a higher dose. We will guide you on the right amount for you.",
+          "Folic acid is one of the most important steps. Taking 400 micrograms of folic acid every day, starting at least one month before you try to conceive and continuing through the first 12 weeks, can lower the chance of certain birth defects of the brain and spine. Some women, for example those with diabetes, a history of a previous baby with such a defect, or those on certain anti-seizure medicines, may be advised a higher dose. We will guide you on the right amount for you.",
           "We also check that your vaccinations are up to date. Being protected against infections such as rubella before pregnancy is helpful, since some vaccines are given before you conceive rather than during pregnancy. If you have a condition like diabetes, high blood pressure, thyroid trouble, or epilepsy, getting it well managed before pregnancy can make a real difference, so we work with you on this.",
           "Healthy daily habits matter too. We may talk about a balanced diet, gentle activity, reaching a comfortable weight, and stopping alcohol and tobacco, since these can affect both conceiving and a growing baby."
         ],
         "bullets": [
-          "Folic acid 400 to 800 micrograms daily before and in early pregnancy",
+          "Folic acid 400 micrograms daily before and in early pregnancy",
           "A check that vaccinations such as rubella are up to date",
           "Help to manage diabetes, thyroid, blood pressure or other conditions",
           "A review of medicines, as some may need to be changed before pregnancy",
@@ -78,7 +78,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "question": "How much folic acid should I take before pregnancy?",
-        "answer": "Most women are advised 400 to 800 micrograms of folic acid daily, started at least one month before trying to conceive and continued for the first 12 weeks. Some women need a higher dose, so it is best to confirm the right amount with your doctor."
+        "answer": "Most women are advised 400 micrograms of folic acid daily, started at least one month before trying to conceive and continued for the first 12 weeks. Some women need a higher dose, so it is best to confirm the right amount with your doctor."
       },
       {
         "question": "Do I need any tests before getting pregnant?",

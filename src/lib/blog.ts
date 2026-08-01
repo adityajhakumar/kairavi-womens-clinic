@@ -90,7 +90,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         heading: "1. Start folic acid early",
         paragraphs: [
-          "Taking folic acid before and in early pregnancy lowers the chance of certain birth defects of the brain and spine. Most women are advised 400 to 800 micrograms a day, ideally started at least a month before trying to conceive and continued through the first 12 weeks. Some women need a higher dose, so it is worth confirming the right amount with your doctor.",
+          "Taking folic acid before and in early pregnancy lowers the chance of certain birth defects of the brain and spine. Most women are advised 400 micrograms a day, ideally started at least a month before trying to conceive and continued through the first 12 weeks. Some women need a higher dose, so it is worth confirming the right amount with your doctor.",
         ],
       },
       {
@@ -820,7 +820,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         "heading": "Folic acid and other essentials",
         "paragraphs": [
-          "Folic acid is one of the most important things you can take in early pregnancy. It helps your baby's neural tube develop properly into the brain and spinal cord, and taking it lowers the chance of neural tube defects such as spina bifida. Most guidelines recommend 400 micrograms of folic acid daily, and some suggest up to 800 micrograms, ideally starting before conception and continued through at least the first 12 weeks. If you have a higher-risk history, such as a previous baby with a neural tube defect, diabetes or certain medicines, your doctor may advise a higher dose, so it is always worth discussing your personal needs at your booking visit.",
+          "Folic acid is one of the most important things you can take in early pregnancy. It helps your baby's neural tube develop properly into the brain and spinal cord, and taking it lowers the chance of neural tube defects such as spina bifida. Most guidelines recommend 400 micrograms of folic acid daily, ideally starting before conception and continued through at least the first 12 weeks. If you have a higher-risk history, such as a previous baby with a neural tube defect, diabetes or certain medicines, your doctor may advise a higher dose, so it is always worth discussing your personal needs at your booking visit.",
           "Alongside folic acid, your doctor is likely to check your haemoglobin and may recommend iron, calcium or vitamin D depending on your diet and blood results. Try to eat a balanced diet with plenty of vegetables, fruits, whole grains, dairy and protein, and stay well hydrated."
         ],
         "bullets": [
