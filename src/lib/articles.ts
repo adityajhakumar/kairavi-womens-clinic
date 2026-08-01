@@ -699,7 +699,7 @@ export const ARTICLES: Article[] = [
       {
         "heading": "Overview",
         "paragraphs": [
-          "A typical menstrual cycle comes roughly every 24 to 38 days, with bleeding that lasts up to about 7 days. Cycles can vary from person to person, and some change is normal.",
+          "A typical menstrual cycle comes roughly every 24 to 38 days, with bleeding that lasts up to about 8 days. Cycles can vary from person to person, and some change is normal.",
           "A menstrual disorder means your periods are causing trouble in one of several ways: bleeding that is very heavy, periods that come too often or too rarely, periods that are very painful, or periods that stop or do not start. Each pattern can have different causes and different care."
         ]
       },
@@ -741,7 +741,7 @@ export const ARTICLES: Article[] = [
       {
         "heading": "When to see a doctor",
         "paragraphs": [
-          "Please book a visit if your periods are very heavy, last longer than 7 days, suddenly change, become very painful, or stop for more than 90 days when you are not pregnant. Bleeding after sex or after menopause should always be checked.",
+          "Please book a visit if your periods are very heavy, last longer than 8 days, suddenly change, become very painful, or stop for more than 90 days when you are not pregnant. Bleeding after sex or after menopause should always be checked.",
           "You can reach Kairavi Women's Clinic, Kelambakkam, by phone or WhatsApp to book an appointment. Feeling very tired or breathless can be a sign of low iron from heavy periods and is worth mentioning."
         ]
       }

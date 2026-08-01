@@ -498,7 +498,7 @@ export const BLOG_POSTS: BlogPost[] = [
           "Each cycle is counted from the first day of one period to the first day of the next. Underneath the bleeding you see, four phases are quietly at work:"
         ],
         "bullets": [
-          "Menstrual phase: The uterine lining sheds, causing your period. This usually lasts about 2–7 days.",
+          "Menstrual phase: The uterine lining sheds, causing your period. This usually lasts about 2–8 days.",
           "Follicular phase: Overlapping with your period and continuing after it, oestrogen rises and the uterine lining begins to thicken again as follicles in the ovary develop.",
           "Ovulation: Around the middle of the cycle, a surge in luteinising hormone triggers the release of an egg from the ovary.",
           "Luteal phase: Progesterone rises to prepare the uterine lining for a possible pregnancy. If pregnancy doesn't occur, hormone levels fall and the next period begins."
@@ -507,7 +507,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         "heading": "What's a Normal Length and Flow?",
         "paragraphs": [
-          "International guidance from FIGO (the International Federation of Gynecology and Obstetrics) treats a menstrual cycle lasting anywhere from 24 to 38 days, counted start to start, as normal — the average is close to 28 days, but very few people are exactly average every month. A period itself usually lasts between 2 and 7 days.",
+          "International guidance from FIGO (the International Federation of Gynecology and Obstetrics) treats a menstrual cycle lasting anywhere from 24 to 38 days, counted start to start, as normal — the average is close to 28 days, but very few people are exactly average every month. A period itself usually lasts up to about 8 days.",
           "Total blood loss over a period is typically only about 2–3 tablespoons (roughly 30–40 ml), with the heaviest flow in the first day or two, often becoming lighter, pinkish or brownish towards the end. It can look like more than it is. Some month-to-month variation in cycle length and flow is completely normal, especially in the teenage years and in the years leading up to menopause, when cycles can take time to settle into a regular pattern."
         ]
       },
@@ -539,7 +539,7 @@ export const BLOG_POSTS: BlogPost[] = [
           "Consider booking a consultation if:"
         ],
         "bullets": [
-          "Your period regularly lasts longer than 7 days, or your cycle is consistently shorter than 24 days or longer than 38 days.",
+          "Your period regularly lasts longer than 8 days, or your cycle is consistently shorter than 24 days or longer than 38 days.",
           "You go 90 days or more without a period and you are not pregnant, or your periods have stopped completely without an obvious explanation.",
           "You notice bleeding or spotting between periods, or bleeding after intercourse.",
           "You have severe period pain that disrupts daily life.",
@@ -1706,7 +1706,7 @@ export const BLOG_POSTS: BlogPost[] = [
       {
         "heading": "What counts as 'irregular'?",
         "paragraphs": [
-          "A typical menstrual cycle lasts anywhere from 24 to 38 days, and some month-to-month variation is normal. Periods are generally considered irregular when the gap between cycles is shorter than 24 days or longer than 38 days, when the length keeps changing, when periods stop for three months or more (outside pregnancy), when bleeding lasts longer than seven days, or when flow becomes much heavier or lighter than usual.",
+          "A typical menstrual cycle lasts anywhere from 24 to 38 days, and some month-to-month variation is normal. Periods are generally considered irregular when the gap between cycles is shorter than 24 days or longer than 38 days, when the length keeps changing, when periods stop for three months or more (outside pregnancy), when bleeding lasts longer than eight days, or when flow becomes much heavier or lighter than usual.",
           "Tracking your cycles on a calendar or app for a couple of months beforehand makes it much easier for your doctor to understand your pattern."
         ]
       },
@@ -1759,7 +1759,7 @@ export const BLOG_POSTS: BlogPost[] = [
         "paragraphs": [
           "Not every irregular period carries the same urgency. Use the following as a rough guide, and when in doubt, it is always fine to ask.",
           "Book a routine appointment if your periods have been irregular for more than a few months, if you have gone three months or more without a period and are not pregnant or breastfeeding, or if irregular cycles come with symptoms such as unexplained weight change, excess hair growth, acne, or difficulty conceiving.",
-          "See a doctor promptly, within a few days, if you have bleeding between periods, bleeding after intercourse, any vaginal bleeding after menopause, or bleeding that lasts longer than seven days.",
+          "See a doctor promptly, within a few days, if you have bleeding between periods, bleeding after intercourse, any vaginal bleeding after menopause, or bleeding that lasts longer than eight days.",
           "Seek urgent, same-day care — from a doctor or your nearest emergency department — if you are bleeding very heavily: soaking through a pad or tampon every hour for two or more hours in a row, passing clots larger than a coin, or feeling faint, dizzy, breathless, or noticing a racing heartbeat. Heavy blood loss can occasionally become an emergency, all the more so because iron-deficiency anaemia, common among women in India, can make its effects felt sooner.",
           "Irregular periods are often very manageable once the cause is found, and an early conversation makes things simpler. Dr Santhalakshmi S at Kairavi Women's Clinic in Kelambakkam, Chennai, offers confidential consultations to understand what is happening with your cycle and guide you through any tests or next steps. You can call or WhatsApp +91 73586 79920 to book an appointment.",
           "This article is for general information only and is not a substitute for personal medical advice. Please consult a qualified doctor to discuss your specific symptoms and history."
