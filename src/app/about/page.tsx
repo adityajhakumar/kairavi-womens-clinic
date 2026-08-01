@@ -87,7 +87,7 @@ export default function AboutPage() {
             </p>
             <p className="lead" style={{ marginTop: 14, fontSize: 16 }}>
               As a trained laparoscopic surgeon, Dr. Santhalakshmi offers minimally invasive (keyhole) approaches
-              for suitable gynaecological conditions such as ovarian cysts, fibroids, and endometriosis. Compared with
+              for suitable gynaecological conditions. Compared with
               open surgery, keyhole techniques are generally linked to smaller scars, less pain, and a quicker return
               to daily life, though the right approach is always chosen for each individual case.
             </p>
