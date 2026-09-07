@@ -66,7 +66,6 @@ export function Footer() {
             © {YEAR} {CLINIC.name}. Kelambakkam, Chennai.
           </p>
           <div style={{ display: "flex", gap: 18, fontSize: 13 }}>
-            <a href={CLINIC.bookingUrl} target="_blank" rel="noopener noreferrer" className="muted">Book on MediBuddy</a>
             <a href={CLINIC.instagramUrl} target="_blank" rel="noopener noreferrer" className="muted">Instagram</a>
             <a href={`https://wa.me/${CLINIC.whatsapp}`} target="_blank" rel="noopener noreferrer" className="muted">WhatsApp</a>
             <Link href="/faq/" className="muted">FAQ</Link>

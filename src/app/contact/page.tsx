@@ -38,11 +38,6 @@ export default function ContactPage() {
           <div className="contact-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1.1fr", gap: 40 }}>
             {/* details */}
             <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-              <a href={CLINIC.bookingUrl} target="_blank" rel="noopener noreferrer" className="card" style={{ display: "block", background: "var(--rose)", borderColor: "var(--rose)" }}>
-                <p style={{ fontSize: 11.5, fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase", color: "rgba(255,255,255,0.8)" }}>Book online</p>
-                <p style={{ fontSize: 18, fontWeight: 700, marginTop: 8, color: "#fff" }}>Appointment on MediBuddy →</p>
-                <p style={{ fontSize: 13.5, marginTop: 6, color: "rgba(255,255,255,0.88)" }}>Choose a slot online, anytime</p>
-              </a>
               <InfoCard label="Call or WhatsApp" main={CLINIC.phoneDisplay} href={`tel:${CLINIC.phoneRaw}`}
                 sub="Tap to call, or message us on WhatsApp" extra={<a href={`https://wa.me/${CLINIC.whatsapp}`} target="_blank" rel="noopener noreferrer" style={{ color: "var(--rose-deep)", fontWeight: 600, fontSize: 14 }}>Open WhatsApp →</a>} />
               <InfoCard label="Email" main={CLINIC.email} href={`mailto:${CLINIC.email}`} sub="We reply within clinic hours" />
@@ -76,7 +71,7 @@ export default function ContactPage() {
                 />
               </div>
               <a href={CLINIC.bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%", justifyContent: "center", marginTop: 18 }}>
-                Book Online on MediBuddy
+                Book an Appointment
               </a>
             </div>
           </div>

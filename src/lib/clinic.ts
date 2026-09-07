@@ -28,7 +28,6 @@ export const CLINIC = {
     profiles: [
       { label: "Chettinad Hospital profile", href: "https://www.chettinadhospital.com/doctor/Dr.S.SanthalakshmiConsultant-Obstetrics&Gynecology" },
       { label: "Practo profile", href: "https://www.practo.com/chennai/doctor/dr-santhalakshmi-gynecologist-obstetrician" },
-      { label: "MediBuddy profile", href: "https://www.medibuddy.in/doctor-consultations/chennai/gynecology/dr-santhalakshmi-s-300268" },
     ],
   },
   phoneDisplay: "+91 73586 79920",
@@ -37,8 +36,8 @@ export const CLINIC = {
   email: "kairaviwomensclinic@gmail.com",
   instagram: "kairavi_care",
   instagramUrl: "https://www.instagram.com/kairavi_care/",
-  // Online appointment booking is handled on MediBuddy; appointment CTAs point here.
-  bookingUrl: "https://www.medibuddy.in/doctor-consultations/chennai/gynecology/dr-santhalakshmi-s-300268",
+  // Online appointment "booking" routes to WhatsApp; appointment CTAs point here.
+  bookingUrl: "https://wa.me/917358679920",
   address: {
     line1: "Plot No. 151, VSN Heights, Iyra Aditi Phase 1",
     locality: "Kelambakkam",
@@ -266,7 +265,7 @@ export const FAQS: FAQ[] = [
   },
   {
     "question": "Can I book an appointment online?",
-    "answer": "Yes. You can book an online appointment with Dr. Santhalakshmi on MediBuddy, or simply call or WhatsApp us on +91 73586 79920. Online booking lets you choose a slot at your convenience."
+    "answer": "Yes. You can book an appointment with Dr. Santhalakshmi by calling or messaging us on WhatsApp at +91 73586 79920. We will help you find a slot at your convenience."
   },
   {
     "question": "Does Dr. Santhalakshmi handle deliveries and caesarean sections?",

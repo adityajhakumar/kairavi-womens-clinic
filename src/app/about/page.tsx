@@ -24,7 +24,7 @@ const EXPERIENCE = [
   "Consultant, Dr. Kamakshi Memorial Hospitals",
   "DNB Trainee, G. Kuppuswamy Naidu Memorial Hospital",
   "Assistant Surgeon, Government District Headquarters Hospital, Cheyyar",
-  "Senior Resident, Government Thiruvannamalai Medical College and Hospital (COVID period)",
+  "Senior Resident, Government Thiruvannamalai Medical College and Hospital",
 ];
 
 export default function AboutPage() {
@@ -149,7 +149,7 @@ export default function AboutPage() {
           </div>
 
           <div style={{ marginTop: 40, display: "flex", flexWrap: "wrap", gap: 14 }}>
-            <a href={CLINIC.bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary">Book Online on MediBuddy</a>
+            <a href={CLINIC.bookingUrl} target="_blank" rel="noopener noreferrer" className="btn-primary">Book an Appointment</a>
             <a href={`tel:${CLINIC.phoneRaw}`} className="btn-ghost">Call {CLINIC.phoneDisplay}</a>
           </div>
         </div>

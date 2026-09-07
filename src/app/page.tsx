@@ -233,7 +233,7 @@ function Trust({ label, value }: { label: string; value: string }) {
 }
 
 const STEPS = [
-  { title: "Book a time", body: "Reserve a slot online on MediBuddy, or call and WhatsApp us. We will find a time that suits you." },
+  { title: "Book a time", body: "Call or WhatsApp us to reserve a slot. We will find a time that suits you." },
   { title: "Talk it through", body: "Dr. Santhalakshmi listens to your concern, examines if needed, and explains things in plain language." },
   { title: "A plan that fits you", body: "You leave with a clear next step, whether that is reassurance, tests, treatment, or a follow-up." },
 ];
