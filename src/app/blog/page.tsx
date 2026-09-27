@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { CLINIC } from "@/lib/clinic";
-import { BLOG_POSTS } from "@/lib/blog";
+import { PUBLISHED_POSTS } from "@/lib/blog";
 import { resolveBlogCover } from "@/lib/blog-image";
 import { buildMetadata } from "@/lib/meta";
 import { breadcrumbSchema } from "@/lib/seo";
@@ -38,13 +38,13 @@ export default function BlogPage() {
 
       <section className="section">
         <div className="container-k">
-          {BLOG_POSTS.length === 0 ? (
+          {PUBLISHED_POSTS.length === 0 ? (
             <div className="card" style={{ textAlign: "center", padding: "48px 26px" }}>
               <p className="lead">Our first articles are on the way. Please check back soon.</p>
             </div>
           ) : (
             <div className="blog-grid" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 26 }}>
-              {BLOG_POSTS.map((post) => {
+              {PUBLISHED_POSTS.map((post) => {
                 const cover = resolveBlogCover(post);
                 return (
                 <Link key={post.slug} href={`/blog/${post.slug}/`} className="card" style={{ padding: 0, overflow: "hidden", display: "flex", flexDirection: "column" }}>

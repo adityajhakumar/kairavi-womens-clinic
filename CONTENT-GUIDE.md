@@ -28,6 +28,16 @@ couple of minutes.
 > swap Unsplash photo IDs there. To find an ID, open any photo on unsplash.com;
 > the ID is the part of the image URL after `images.unsplash.com/`.
 
+### Publishing a post live (hide vs. show)
+
+All posts stay saved in `BLOG_POSTS`, but only ones listed by slug in
+`PUBLISHED_SLUGS` (bottom of `src/lib/blog.ts`) actually appear on the live
+site. To make a post live, add its `slug` to that list, then commit and push.
+To hide a post again, remove its slug — the content stays in the file, it just
+stops being built as a page. (As of 2026-09-27 this list is empty, so the blog
+index shows "Our first articles are on the way" while posts are queued up to
+go out one at a time.)
+
 ## Add camp photos
 
 1. Put the photos in `public/images/camps/`.

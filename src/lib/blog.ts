@@ -2154,3 +2154,11 @@ export const BLOG_POSTS: BlogPost[] = [
 
 export const BLOG_SLUGS = BLOG_POSTS.map((p) => p.slug);
 export const getPost = (slug: string) => BLOG_POSTS.find((p) => p.slug === slug);
+
+// ---------------------------------------------------------------------------
+// PUBLISHING CONTROL — posts stay hidden from the live site until their slug
+// is listed here. Nothing above is deleted; add a slug below (and rebuild +
+// redeploy) to bring that post back live, one at a time.
+// ---------------------------------------------------------------------------
+export const PUBLISHED_SLUGS: string[] = [];
+export const PUBLISHED_POSTS = BLOG_POSTS.filter((p) => PUBLISHED_SLUGS.includes(p.slug));

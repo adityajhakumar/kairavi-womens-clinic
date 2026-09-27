@@ -24,7 +24,7 @@ export default function ServicesPage() {
           </nav>
           <p className="eyebrow">What we offer</p>
           <h1 style={{ fontSize: "clamp(32px, 4.6vw, 50px)", marginTop: 14, maxWidth: 760 }}>
-            Comprehensive obstetrics and gynaecology care
+            Comprehensive Obstetrics and Gynaecology care
           </h1>
           <p className="lead" style={{ marginTop: 18, maxWidth: 640 }}>
             From planning a pregnancy to managing complex gynaecological conditions, every service is delivered

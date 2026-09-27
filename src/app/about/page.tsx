@@ -21,10 +21,10 @@ const CREDENTIALS = [
 
 const EXPERIENCE = [
   "Consultant, Department of Obstetrics & Gynaecology, Chettinad Super Speciality Hospital, Kelambakkam",
-  "Consultant, Dr. Kamakshi Memorial Hospitals",
-  "DNB Trainee, G. Kuppuswamy Naidu Memorial Hospital",
+  "Consultant, Department of Obstetrics & Gynaecology, Dr. Kamakshi Memorial Hospital, Pallikaranai, Chennai",
+  "DNB Trainee, Department of Obstetrics & Gynaecology, G. Kuppuswamy Naidu Memorial Hospital, Coimbatore",
   "Assistant Surgeon, Government District Headquarters Hospital, Cheyyar",
-  "Senior Resident, Government Thiruvannamalai Medical College and Hospital",
+  "Senior Resident, Department of Obstetrics & Gynaecology, Government Medical College and Hospital, Thiruvannamalai",
 ];
 
 export default function AboutPage() {

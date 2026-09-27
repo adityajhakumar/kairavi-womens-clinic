@@ -97,8 +97,8 @@ export default function Home() {
             </div>
             <div>
               <p className="eyebrow">Meet your doctor</p>
-              <h2 style={{ fontSize: "clamp(26px, 3.6vw, 38px)", marginTop: 12 }}>{CLINIC.doctor.name}</h2>
-              <p style={{ color: "var(--rose-deep)", fontWeight: 600, marginTop: 6 }}>{CLINIC.doctor.title}</p>
+              <h2 style={{ fontSize: "clamp(26px, 3.6vw, 38px)", marginTop: 12 }}>Dr Santhalakshmi S M.B.B.S, DGO, DNB (OBG)</h2>
+              <p style={{ color: "var(--rose-deep)", fontWeight: 600, marginTop: 6 }}>Consultant in Obstetrics &amp; Gynaecologist and Laparoscopic Surgeon</p>
               <p className="lead" style={{ marginTop: 18 }}>
                 {CLINIC.doctor.bio.split("\n\n")[0]}
               </p>

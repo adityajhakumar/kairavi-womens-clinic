@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/clinic";
 import { ARTICLE_SLUGS } from "@/lib/articles";
-import { BLOG_SLUGS } from "@/lib/blog";
+import { PUBLISHED_SLUGS } from "@/lib/blog";
 
 // Required for output: 'export' so the static exporter renders this at build.
 export const dynamic = "force-static";
@@ -21,8 +21,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/faq/", priority: 0.7, changeFrequency: "monthly" },
     // Individual service / condition articles
     ...ARTICLE_SLUGS.map((slug) => ({ path: `/services/${slug}/`, priority: 0.7, changeFrequency: "monthly" as const })),
-    // Blog posts
-    ...BLOG_SLUGS.map((slug) => ({ path: `/blog/${slug}/`, priority: 0.6, changeFrequency: "monthly" as const })),
+    // Blog posts (only ones currently published live)
+    ...PUBLISHED_SLUGS.map((slug) => ({ path: `/blog/${slug}/`, priority: 0.6, changeFrequency: "monthly" as const })),
   ];
   return routes.map((r) => ({
     url: `${SITE_URL}${r.path}`,

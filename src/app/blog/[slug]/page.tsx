@@ -2,13 +2,18 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { BLOG_POSTS, getPost } from "@/lib/blog";
+import { BLOG_POSTS, PUBLISHED_POSTS, PUBLISHED_SLUGS, getPost } from "@/lib/blog";
 import { resolveBlogCover } from "@/lib/blog-image";
 import { CLINIC } from "@/lib/clinic";
 import { buildMetadata } from "@/lib/meta";
 import { breadcrumbSchema, blogPostingSchema } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 
+// NOTE: this must enumerate every post (not just published ones) — Next's
+// static export requires generateStaticParams() to produce at least the full
+// set of paths it's willing to build. Hidden posts still get an exported
+// page below, but the component renders it as "not found" (see PUBLISHED_SLUGS
+// check in the default export), so they are unreachable and unlisted.
 export function generateStaticParams() {
   return BLOG_POSTS.map((p) => ({ slug: p.slug }));
 }
@@ -16,17 +21,17 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const p = getPost(slug);
-  if (!p) return {};
+  if (!p || !PUBLISHED_SLUGS.includes(slug)) return {};
   return buildMetadata({ title: p.title, description: p.excerpt, path: `/blog/${p.slug}/` });
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = getPost(slug);
-  if (!post) notFound();
+  if (!post || !PUBLISHED_SLUGS.includes(slug)) notFound();
 
   const cover = resolveBlogCover(post);
-  const more = BLOG_POSTS.filter((x) => x.slug !== post.slug).slice(0, 3);
+  const more = PUBLISHED_POSTS.filter((x) => x.slug !== post.slug).slice(0, 3);
 
   return (
     <main>
